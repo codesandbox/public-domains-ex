@@ -1,0 +1,2 @@
+defmodule PublicDomains do
+end
