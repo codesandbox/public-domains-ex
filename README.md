@@ -1,21 +1,31 @@
-# PublicDomains
+# Public Domains
 
-**TODO: Add description**
+_Quickly look up whether a domain hosts publicly-available email addresses._
+
+## What is this?
+
+When validating email addresses, it is sometimes useful to know whether the address is likely related to a company or comes from a publicly-accessible domain.
+This library provides a [community-maintained list](https://gist.github.com/okutbay/5b4974b70673dfdcc21c517632c1f984) of domains that host publicly-available email addresses.
+It is updated on an as-needed basis (pull requests welcome).
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `public_domains` to your list of dependencies in `mix.exs`:
+This package is not available on Hex.pm, and should instead be downloaded directly from GitHub:
 
 ```elixir
 def deps do
   [
-    {:public_domains, "~> 0.1.0"}
+    {:public_domains, github: "codesandbox/public-domains-ex"}
   ]
 end
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/public_domains>.
+## Usage
 
+TODO.
+
+## Contributions
+
+In order to update the list of domains, please run `./bin/update.sh` from the root of the project.
+Then open a pull requests with the changes.
+When possible, please do not mix domain list updates with other changes.
